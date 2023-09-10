@@ -7,7 +7,7 @@ namespace LeaderBoardResetter
         #region Properties
 
         private readonly ILeaderboardManager _leaderboardManager;
-        private readonly TimeSpan _period = TimeSpan.FromSeconds(5);
+        private readonly TimeSpan _period = TimeSpan.FromMinutes(5);
 
         #endregion
 
